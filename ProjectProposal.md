@@ -8,7 +8,21 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 **Security features in the software:** *Sindhura*
 
 **Motivation for selecting this project:** *Krishna*
-	It is too large for us to fully comprehend, has a high activity rate, and is mostly written in Java. Also, the website looks cool.
+# Motivation
+
+The primary constarints we had to identify the scope while choosing a project is 
+(a)the language a project is developed on,
+(b)the possibility of  security issues,
+(c)the current hit rate and scope of the project.
+
+Refering to the first constraint (a), 
+Nuxeo platform,  is a project developed using Java. Every person in the team is more or less comfortable with Java. The server side code is Java and for Web UI it uses javascript.
+
+Refering to the second constraint (b),
+The project offers security for the documents and the content.There are various kinds of permissions to stakeholders(User-level permissions/ Group-level permissions) either to read, edit or both. We believe this kind of permissions may provide us a chance to assure the security of content.
+
+Refering to the third constraint (c),
+The project is active, with decent number pull requests, releases and commits. The project has very detailed documentation, which helps us as a guide throuh out the project. 
 
 **Open source project description:** *Krishna*
 
