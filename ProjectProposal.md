@@ -11,6 +11,7 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 # Motivation
 
 The primary constarints we had to identify the scope while choosing a project is 
+
 (a)the language a project is developed on,
 (b)the possibility of  security issues,
 (c)the current hit rate and scope of the project.
@@ -47,8 +48,8 @@ https://doc.nuxeo.com/corg/code-review-guidelines/
 
 **Summary of security related history:** *Sindhura*
 
-Github:  https://github.com/kteja-ayinala/Assurance-Army.git
+Github:  https://github.com/kteja-ayinala/SW-Assurance-Term-Project
 
-Version Control System: https://github.com/kteja-ayinala/Assurance-Army/projects/1
+Version Control System: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects
 
 Reference: Project link: https://github.com/nuxeo
