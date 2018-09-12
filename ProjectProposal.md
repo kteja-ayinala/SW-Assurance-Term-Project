@@ -58,6 +58,8 @@ As a user, I would want the following security needs addressed:
 2. Data encryption
 3. Esure only approved users can access data
 4. Ensure my data is never lost/deleted
+5. Different levels of Authorization
+6. Group/User access controls
 
 # Security features in the software:
 
