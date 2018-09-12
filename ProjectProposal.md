@@ -14,10 +14,10 @@ Refering to the first constraint (a),
 Nuxeo platform,  is a project developed using Java. Every person in the team is more or less comfortable with Java. The server side code is Java. Tool support is widely available for Java.
 
 Refering to the second constraint (b),
-The project offers security for the documents and the content.There are various kinds of permissions to stakeholders(User-level permissions/ Group-level permissions) either to read, edit or both. There is authentication. We believe this kind of permissions and authentications provide us a chance to assure the security of content.
+The project offers security for the documents and the content.There are various kinds of permissions to stakeholders (User-level permissions/ Group-level permissions) either to read, edit or both. There is authentication. We believe this kind of permissions and authentications provide us a chance to assure the security of content.
 
 Refering to the third constraint (c),
-The project is active, with decent number of pull requests, releases and commits. The project accepts contribution. The project has very detailed documentation, which helps us as a guide throuh out the project. 
+The project is active, with decent number of pull requests, releases, and commits. The project accepts contributions. The project has very detailed documentation, which helps us as a guide throughout the project. 
 
 # Open source project description
 
