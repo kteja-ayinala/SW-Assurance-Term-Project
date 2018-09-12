@@ -89,6 +89,15 @@ https://www.cvedetails.com/vulnerability-list/vendor_id-16246/product_id-36496/N
 
 **Security needs in intended threat environment:**
 
+The threat environment will mainly be in the business field, but could also be used in government and private settings.
+
+As a user, I would want the following security needs addressed:
+
+1. Password protection
+2. Data encryption
+3. Esure only approved users can access data
+4. Ensure my data is never lost/deleted
+
 Github:  https://github.com/kteja-ayinala/SW-Assurance-Term-Project
 
 Version Control System: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects
