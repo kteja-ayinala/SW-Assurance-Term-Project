@@ -92,6 +92,9 @@ https://jira.nuxeo.com/browse/NXP-11617?jql=text%20~%20%22security%22
 More secure encryption algorithm should be used as the AES/CBC/PKCS5Padding algorithm which is being used is susceptible to padding oracle attacks.</br>
 https://jira.nuxeo.com/browse/NXP-25540?jql=text%20~%20%22security%22
 
+A list of issues can be found in the following link:<br>
+https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
+
 # Security needs in intended threat environment:
 
 The threat environment will mainly be in the business field, but could also be used in government and private settings.
