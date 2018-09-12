@@ -90,7 +90,8 @@ Security policy Query transformers must be used inordered to prevent unauthorise
 https://jira.nuxeo.com/browse/NXP-11617
 
 More secure encryption algorithm should be used as the AES/CBC/PKCS5Padding algorithm which is being used is susceptible to padding oracle attacks.</br>
-https://jira.nuxeo.com/browse/NXP-25540
+https://jira.nuxeo.com/browse/NXP-25540<br>
+
 A list of issues can be found in the following link:<br>
 https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
 
