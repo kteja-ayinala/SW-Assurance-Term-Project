@@ -3,7 +3,7 @@
 
 Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu          
 
-**Motivation for selecting this project:**
+# Motivation for selecting this project
 
 The primary constarints we had to identify the scope while choosing a project are: </br>
 (a)the language a project is developed on,</br>
@@ -19,7 +19,7 @@ The project offers security for the documents and the content.There are various 
 Refering to the third constraint (c),
 The project is active, with decent number of pull requests, releases and commits. The project accepts contribution. The project has very detailed documentation, which helps us as a guide throuh out the project. 
 
-**Open source project description:** 
+# Open source project description
 
 (What is Nuxeo Platform)</br>
 Nuxeo platform is an open source project, which provides content management platform for building business applications. It provides software artifacts and tools that allow to build, operate and maintain advanced content management applications. It is an open development model with great documentation and great visibility on product evolutions that enables you to quickly reach a high level of expertise.
@@ -48,7 +48,7 @@ More than 500 brands so far are increasingly choosing Nuxeo platform to drive di
 Documentation sources: </br>
 The detailed doumentation to the Nuxeo platform is available at: https://doc.nuxeo.com/
 
-**License, procedures for making contributions, and contributor agreements:** 
+# License, procedures for making contributions, and contributor agreements:
 
 All code committed in Nuxeo repositories must be licensed under the Apache License, Version 2.0, or a compatible license (LGPL 2.1, Eclipse, CDDL) if importing code with a third-party copyright. 
 
@@ -66,7 +66,7 @@ This is the part of the documentation specifically pertaining to pull requests.
 
 https://doc.nuxeo.com/corg/code-review-guidelines/
 
-**Security features in the software:** 
+# Security features in the software:
 
 Authentication - Nuxeo platform requires users to create an account and login. The password has some regex conditions in order to ensure the complexity. It also provides access to anonymous users whose access can be restricted to few folders and perform few actions as specified (User Permissions).</br>
 
@@ -81,13 +81,13 @@ Sensitive Configuration Data Encryption – Nuxeo provides the advantage to encr
 Avoids Brute Force – The crypto container is self-destroyed on the first decryption attempt with the wrong password and the server will immediately lose all the sensitive data if some hosted code tries to crack encrypted key.
 
 
-**Summary of security related history:**
+# Summary of security related history:
 
 First documented 2017-03-24,	Updated 2017-08-15: Directory traversal vulnerability in the file import feature in Nuxeo Platform 6.0, 7.1, 7.2, and 7.3 allows remote authenticated users to upload and execute arbitrary JSP code via a .. (dot dot) in the X-File-Name header.
 
 https://www.cvedetails.com/vulnerability-list/vendor_id-16246/product_id-36496/Nuxeo-Nuxeo.html
 
-**Security needs in intended threat environment:**
+# Security needs in intended threat environment:
 
 The threat environment will mainly be in the business field, but could also be used in government and private settings.
 
@@ -97,6 +97,8 @@ As a user, I would want the following security needs addressed:
 2. Data encryption
 3. Esure only approved users can access data
 4. Ensure my data is never lost/deleted
+
+# Links
 
 Github:  https://github.com/kteja-ayinala/SW-Assurance-Term-Project
 
