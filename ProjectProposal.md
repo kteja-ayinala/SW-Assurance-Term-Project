@@ -6,9 +6,9 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 # Motivation for selecting this project
 
 The primary constarints we had to identify the scope while choosing a project are: </br>
-(a)the language a project is developed on,</br>
-(b)the possibility of  security issues,</br>
-(c)the current hit rate and scope of the project.
+(a) The language a project is developed on,</br>
+(b) The possibility of  security issues,</br>
+(c) The current hit rate and scope of the project.
 
 Refering to the first constraint (a), 
 Nuxeo platform,  is a project developed using Java. Every person in the team is more or less comfortable with Java. The server side code is Java. Tool support is widely available for Java.
@@ -32,9 +32,9 @@ Build, QA and perform analysing tooling: It uses all the open source tools to bu
 Nuxeo Studio and Nuxeo CLI: Nuxeo Studio is an online application where we can perform content modelling, business logic and UI design.  Nuxeo CLI is a command line tool for helping developers bootstrap their custom modules.</br>
 
 Features:</br>
-a)If you need a headless scalable document repository with rich apis and data structures.</br>
-b)If you need a turnkey application for managing assets (description, validation, publishing) with still ability to strongly customize it.</br>
-c)If you want to build a custom UI upon the repository and want to benefit from our rich library of UI elements to accelerate the development of your project.  </br>
+a) If you need a headless scalable document repository with rich apis and data structures.</br>
+b) If you need a turnkey application for managing assets (description, validation, publishing) with still ability to strongly customize it.</br>
+c) If you want to build a custom UI upon the repository and want to benefit from our rich library of UI elements to accelerate the development of your project.  </br>
 
 Technical Overview(Languages used & platform):</br>
 Languages and configuration: Most of the server side code is written in java.  The Web UI is written in JavaScript.Application can be configured using Nuxeo Studio, an online development environment. The Nuxeo's 
