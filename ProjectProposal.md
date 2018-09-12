@@ -87,11 +87,10 @@ First documented 2017-03-24,	Updated 2017-08-15: Directory traversal vulnerabili
 https://www.cvedetails.com/vulnerability-list/vendor_id-16246/product_id-36496/Nuxeo-Nuxeo.html
 
 Security policy Query transformers must be used inordered to prevent unauthorised access of documents.</br>
-https://jira.nuxeo.com/browse/NXP-11617?jql=text%20~%20%22security%22
+https://jira.nuxeo.com/browse/NXP-11617
 
 More secure encryption algorithm should be used as the AES/CBC/PKCS5Padding algorithm which is being used is susceptible to padding oracle attacks.</br>
-https://jira.nuxeo.com/browse/NXP-25540?jql=text%20~%20%22security%22
-
+https://jira.nuxeo.com/browse/NXP-25540
 A list of issues can be found in the following link:<br>
 https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
 
