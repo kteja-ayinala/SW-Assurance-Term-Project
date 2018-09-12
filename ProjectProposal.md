@@ -81,7 +81,11 @@ Sensitive Configuration Data Encryption – Nuxeo provides the advantage to encr
 Avoids Brute Force – The crypto container is self-destroyed on the first decryption attempt with the wrong password and the server will immediately lose all the sensitive data if some hosted code tries to crack encrypted key.
 
 
-**Summary of security related history:** 
+**Summary of security related history:**
+
+First documented 2017-03-24,	Updated 2017-08-15: Directory traversal vulnerability in the file import feature in Nuxeo Platform 6.0, 7.1, 7.2, and 7.3 allows remote authenticated users to upload and execute arbitrary JSP code via a .. (dot dot) in the X-File-Name header.
+
+https://www.cvedetails.com/vulnerability-list/vendor_id-16246/product_id-36496/Nuxeo-Nuxeo.html
 
 **Security needs in intended threat environment:**
 
