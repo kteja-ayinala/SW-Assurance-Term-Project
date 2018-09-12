@@ -7,7 +7,6 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 
 **Motivation for selecting this project:** *Krishna*
-# Motivation
 
 The primary constarints we had to identify the scope while choosing a project are: </br>
 (a)the language a project is developed on,</br>
@@ -24,7 +23,7 @@ Refering to the third constraint (c),
 The project is active, with decent number of pull requests, releases and commits. The project accepts contribution. The project has very detailed documentation, which helps us as a guide throuh out the project. 
 
 **Open source project description:** *Krishna*
-# Description 
+
 (What is Nuxeo Platform)</br>
 Nuxeo platform is an open source project, which provides content management platform for building business applications. It provides software artifacts and tools that allow to build, operate and maintain advanced content management applications. It is an open development model with great documentation and great visibility on product evolutions that enables you to quickly reach a high level of expertise.
 
@@ -71,7 +70,7 @@ This is the part of the documentation specifically pertaining to pull requests.
 https://doc.nuxeo.com/corg/code-review-guidelines/
 
 **Security features in the software:** *Sindhura*
-# Security Features in the software:
+
 Authentication - Nuxeo platform requires users to create an account and login. The password has some regex conditions in order to ensure the complexity. It also provides access to anonymous users whose access can be restricted to few folders and perform few actions as specified (User Permissions).
 Apart from login page, Nuxeo enables user authentication using the following protocols:
 Nuxeo Built-in protocols:
