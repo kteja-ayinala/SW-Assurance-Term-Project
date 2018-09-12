@@ -3,7 +3,7 @@
 
 Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu          
 
-**Motivation for selecting this project:
+**Motivation for selecting this project:**
 
 The primary constarints we had to identify the scope while choosing a project are: </br>
 (a)the language a project is developed on,</br>
