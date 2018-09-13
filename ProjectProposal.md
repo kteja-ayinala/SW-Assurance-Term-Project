@@ -65,7 +65,7 @@ As a user, I would want the following security needs addressed:
 
 Authentication - Nuxeo platform requires users to create an account and login. The password has some regex conditions in order to ensure the complexity. It also provides access to anonymous users whose access can be restricted to few folders and perform few actions as specified (User Permissions).</br>
 
-Apart from login page, Nuxeo enables user authentication using the following protocols:<br/>
+Apart from login page, Nuxeo enables user authentication using the following protocols:</br>
 Nuxeo Built-in protocols:</br>
 Basic Authentication, Token Authentication, OAuth2, Trusted, Kerberos, CAS/CAS 2.0, NTLM
 Add-Ons:</br>
