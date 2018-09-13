@@ -67,7 +67,7 @@ Authentication - Nuxeo platform requires users to create an account and login. T
 
 Apart from login page, Nuxeo enables user authentication using the following protocols:</br>
 Nuxeo Built-in protocols:</br>
-Basic Authentication, Token Authentication, OAuth2, Trusted, Kerberos, CAS/CAS 2.0, NTLM
+Basic Authentication, Token Authentication, OAuth2, Trusted, Kerberos, CAS/CAS 2.0, NTLM</br>
 Add-Ons:</br>
 SAML 2.0, Nuxeo Duo Web Two-Factor Authentication, OpenID
 
