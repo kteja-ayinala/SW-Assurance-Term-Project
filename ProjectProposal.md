@@ -107,6 +107,9 @@ This is the part of the documentation specifically pertaining to pull requests.
 
 https://doc.nuxeo.com/corg/code-review-guidelines/
 
+This project proposal referenced the nuxeo documentation as reference, with license</br>
+https://doc.nuxeo.com/nuxeo-documentation-license/
+
 # Links
 
 Github:  https://github.com/kteja-ayinala/SW-Assurance-Term-Project
