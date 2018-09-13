@@ -80,11 +80,12 @@ __Avoids Brute Force__– The crypto container is self-destroyed on the first de
 First documented 2017-03-24,	Updated 2017-08-15: Directory traversal vulnerability in the file import feature in Nuxeo Platform 6.0, 7.1, 7.2, and 7.3 allows remote authenticated users to upload and execute arbitrary JSP code via a .. (dot dot) in the X-File-Name header.</br>
 https://www.cvedetails.com/vulnerability-list/vendor_id-16246/product_id-36496/Nuxeo-Nuxeo.html
 
-Security policy Query transformers must be used inordered to prevent unauthorised access of documents.</br>
-https://jira.nuxeo.com/browse/NXP-11617
-
 More secure encryption algorithm should be used as the AES/CBC/PKCS5Padding algorithm which is being used is susceptible to padding oracle attacks.</br>
 https://jira.nuxeo.com/browse/NXP-25540<br>
+In the field of security engineering, an oracle attack is an attack that exploits the availability of a weakness in a system that can be used as an "oracle" to give a simple go/no go indication to tell an attacker whether he or she has reached, or is nearing, their goal. The attacker can then combine the oracle with systematic search of the problem space to complete their attack.
+
+Security policy Query transformers must be used inordered to prevent unauthorised access of documents.</br>
+https://jira.nuxeo.com/browse/NXP-11617
 
 A list of issues can be found in the following link:<br>
 https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel
