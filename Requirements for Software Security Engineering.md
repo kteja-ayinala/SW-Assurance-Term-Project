@@ -11,6 +11,15 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 4) Export data into different formats, specific permissions on RWX.(read, write, download)
 5) Maintaining proper VCS of modifications on the shared doc. ( Audit )
 
+
+# Security requirements for use cases using misuse case diagrams
+
+1) Hacker or misuser should not be able to set or alter  user roles.
+2) Data should not be compromised by bad user or hacker.
+3) Hacker should not be able to modify or access third party data and security credentials.
+4) Files should be downloaded and uploaded only by authorized users and files should be free from malicious data.
+5) Lazy user should not insert backdoor work details into the VCS.
+
 # Security related configuration and installation issues
 
 Nuxeo has an [issue tracking website](https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel) that conveniently breaks down issues and categorizes them according to priority, components involved, and issue status. The website includes a search function that allows you to filter for specific parameters as well.
