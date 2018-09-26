@@ -26,13 +26,25 @@ The misuse case diagrams for Assurance Army are availble at: https://www.lucidch
 
 # Security related configuration and installation issues
 
-Nuxeo has an [issue tracking website](https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel) that conveniently breaks down issues and categorizes them according to priority, components involved, and issue status. The website includes a search function that allows you to filter for specific parameters as well.
+Nuxeo has an [issue tracking website](https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel) that conveniently breaks down issues and categorizes them according to priority, components involved, and issue status. The website includes a search function that allows you to filter for specific parameters as well. While there is not a section specific to installation issues, but there exists a [Configuration](https://jira.nuxeo.com/browse/NXP-17648?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Configuration%20ORDER%20BY%20priority%20DESC) component. Two of the more notable security related issues (that have since been resolved) include a faulty string [encryption](https://jira.nuxeo.com/browse/NXP-25257) not allowing an application to correctly start, and the Admin Center not being able to properly save database [elements](https://jira.nuxeo.com/browse/NXP-6816) such as name, user, password, host, and port. This issue tracker shows the evolution of Nexeo's various features.
 
-There is not a section specific to installation issues, but there exists a [Configuration](https://jira.nuxeo.com/browse/NXP-17648?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Configuration%20ORDER%20BY%20priority%20DESC) component. Two of the more notable security related issues (that have since been resolved) include a faulty string [encryption](https://jira.nuxeo.com/browse/NXP-25257) not allowing an application to correctly start and the Admin Center not being able to properly save database [elements](https://jira.nuxeo.com/browse/NXP-6816) such as name, user, password, host, and port.
+Nuxeo provides a Core Developer Guide which goes through the [installation](https://doc.nuxeo.com/corg/) processes for the applications necessary to run Nuxeo. The only security related concern it addresses is when configuring the SSH key for data transfer with [GitHub](https://doc.nuxeo.com/corg/installing-git/). It doesn't discuss any issues with SSH, but simply says that it's required. This guide is to help open source developers get started quickly and easily.
 
-Nuxeo provides a Core Developer Guide which goes through the [installation](https://doc.nuxeo.com/corg/) processes for the applications necessary to run Nuxeo. The only security related concern it addresses is when configuring the SSH key for data transfer with [GitHub](https://doc.nuxeo.com/corg/installing-git/).
+For installing the actual Nuxeo system, [documentation](https://doc.nuxeo.com/) is provided on their website with section pertaining to [installation](https://doc.nuxeo.com/nxdoc/installation/). You can search for other security related documentation, and those of interest include:
 
-The most obvious components with security related issues are [Authentication](https://jira.nuxeo.com/browse/NXP-24580?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Authentication%20ORDER%20BY%20priority%20DESC), [Security](https://jira.nuxeo.com/browse/NXP-24539?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Security%20ORDER%20BY%20priority%20DESC), and [Security/Rights](https://jira.nuxeo.com/browse/NXP-19431?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Security%20%2F%20Rights%22%20ORDER%20BY%20priority%20DESC). However, among all 3 component categories, most of the current unresolved issues relate to authentication and permissions. Login issues are common, but most have already been resolved. Some of the current issues include setting ownership of private packages, group user permissions, and errors changing user permissions. Though, most of the issues are improvements to current features or known bugs. Some of the more substantial issues involve error handling stopping stream processing, document synchronization not keeping any records of the documents downloaded, and validation of third party databases.
+[User authentication](https://doc.nuxeo.com/nxdoc/authentication-and-user-management/)
+
+[Permissions](https://doc.nuxeo.com/nxdoc/security/)
+
+[Repository Access Control List](https://doc.nuxeo.com/nxdoc/acls/)
+
+[Permission checks for reading/writing](https://doc.nuxeo.com/nxdoc/nuxeo-security-system/)
+
+[Additional custom security policies](https://doc.nuxeo.com/nxdoc/security-policy-service/)
+
+[File download policies](https://doc.nuxeo.com/nxdoc/file-download-security-policies/)
+
+This is just the tip of the iceberg as there exists extensive documentation that goes through the Nuxeo's security features. It is clear that Nuxeo has many layers of security involving user permissions and document access.
 
 
 
