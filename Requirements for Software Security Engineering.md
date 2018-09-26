@@ -8,8 +8,8 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 1) Form and set group permissions. (Authentication)
 2) Edit,save,modify data to the cloud. (Encryption) 
 3) Store and retrieve data from the db, drive. (Third-party)
-4) Export data into different formats, specific permissions on RWX.(read, write, download)
-5) Maintaining proper VCS of modifications on the shared doc. ( Audit )
+4) Export data into different formats, specific permissions on RWX.(Read, write, download)
+5) Maintaining proper VCS of modifications on the shared doc. (Audit)
 
 
 # Security requirements for use cases using misuse case diagrams
