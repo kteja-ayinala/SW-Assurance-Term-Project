@@ -22,6 +22,8 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 The misuse case diagrams for Assurance Army are availble at: https://www.lucidchart.com/invitations/accept/5bbd6788-daf1-4525-a654-cf131b477def
 
+# Security requirements with advertised features
+
 # Security related configuration and installation issues
 
 Nuxeo has an [issue tracking website](https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel) that conveniently breaks down issues and categorizes them according to priority, components involved, and issue status. The website includes a search function that allows you to filter for specific parameters as well.
