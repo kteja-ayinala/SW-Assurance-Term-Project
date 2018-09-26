@@ -46,5 +46,7 @@ For installing the actual Nuxeo system, [documentation](https://doc.nuxeo.com/) 
 
 This is just the tip of the iceberg as there exists extensive documentation that goes through the Nuxeo's security features. It is clear that Nuxeo has many layers of security involving user permissions and document access.
 
+# GitHub project management
 
+[Project](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/2)
 
