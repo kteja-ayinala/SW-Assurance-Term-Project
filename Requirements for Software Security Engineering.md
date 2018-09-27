@@ -19,7 +19,7 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 2) DeadBeat Derrick should not be able to erase his debt amount.
 ![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
 3) A Competing Bank Hacker should not be able to ruin the application.
-![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
+![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case3.png)
 4) Grad student with free time should not be able to insert virus into the Bank System.
 ![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case4.png)
 5) Disgruntled Bank Clerk should not able to Alter/Detele history.
