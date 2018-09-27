@@ -15,15 +15,15 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 # Security requirements for use cases using misuse case diagrams
 
 1) A Poor Bank Clerk should not be able to transfer money to his own account.
-![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case1.png)
+![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case1.png)
 2) DeadBeat Derrick should not be able to erase his debt amount.
-![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
+![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case2.png)
 3) A Competing Bank Hacker should not be able to ruin the application.
-![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case3.png)
+![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case3.png)
 4) Grad student with free time should not be able to insert virus into the Bank System.
-![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case4.png)
+![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case4.png)
 5) Disgruntled Bank Clerk should not able to Alter/Detele history.
-![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case5.png)
+![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case5.png)
 
 
 # Security requirements with advertised features
