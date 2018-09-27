@@ -24,6 +24,21 @@ The misuse case diagrams for Assurance Army are availble at: https://www.lucidch
 
 # Security requirements with advertised features
 
+1)The nuxeo platform has the required authentication functionality, more details about the nuxeo authentication is available at: https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
+https://doc.nuxeo.com/nxdoc/nuxeo-duoweb-two-factor-authentication/
+
+2)Data acccess is managed in the nuxeo platform, more details about the nuxeo authentication is available at:
+https://doc.nuxeo.com/nxdoc/implementing-encryption/
+https://doc.nuxeo.com/nxdoc/security/#managing-permissions-on-content
+
+
+3)
+
+4)Security on content is available in the nuxeo platform, more details on data security is available at: 
+https://doc.nuxeo.com/nxdoc/file-download-security-policies/
+
+5)Version control is maintained in the nuxeo platform which uses "immutable versioning". More details on versioning is available at: https://doc.nuxeo.com/nxdoc/versioning/
+
 # Security related configuration and installation issues
 
 Nuxeo has an [issue tracking website](https://jira.nuxeo.com/browse/NXP/?selectedTab=com.atlassian.jira.jira-projects-plugin:issues-panel) that conveniently breaks down issues and categorizes them according to priority, components involved, and issue status. The website includes a search function that allows you to filter for specific parameters as well. While there is not a section specific to installation issues, but there exists a [Configuration](https://jira.nuxeo.com/browse/NXP-17648?jql=project%20%3D%20NXP%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20Configuration%20ORDER%20BY%20priority%20DESC) component. Two of the more notable security related issues (that have since been resolved) include a faulty string [encryption](https://jira.nuxeo.com/browse/NXP-25257) not allowing an application to correctly start, and the Admin Center not being able to properly save database [elements](https://jira.nuxeo.com/browse/NXP-6816) such as name, user, password, host, and port. This issue tracker shows the evolution of Nexeo's various features.
