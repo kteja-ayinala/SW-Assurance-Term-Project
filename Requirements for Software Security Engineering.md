@@ -14,15 +14,15 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 # Security requirements for use cases using misuse case diagrams
 
-1) Hacker or misuser should not be able to set or alter  user roles.
+1) A Poor Bank Clerk should not be able to transfer money to his own account.
 ![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case1.png)
-2) Data should not be compromised by bad user or hacker.
+2) DeadBeat Derrick should not be able to erase his debt amount.
 ![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
-3) Hacker should not be able to modify or access third party data and security credentials.
+3) A Competing Bank Hacker should not be able to ruin the application.
 ![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
-4) Files should be downloaded and uploaded only by authorized users and files should be free from malicious data.
+4) Grad student with free time should not be able to insert virus into the Bank System.
 ![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case4.png)
-5) Lazy user should not insert backdoor work details into the VCS.
+5) Disgruntled Bank Clerk should not able to Alter/Detele history.
 ![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case5.png)
 
 
