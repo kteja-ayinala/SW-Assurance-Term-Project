@@ -25,7 +25,6 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 5) Lazy user should not insert backdoor work details into the VCS.
 ![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case5.png)
 
-The misuse case diagrams for Assurance Army are availble at: https://www.lucidchart.com/invitations/accept/5bbd6788-daf1-4525-a654-cf131b477def
 
 # Security requirements with advertised features
 
