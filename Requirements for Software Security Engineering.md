@@ -17,13 +17,13 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 1) Hacker or misuser should not be able to set or alter  user roles.
 ![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case1.png)
 2) Data should not be compromised by bad user or hacker.
-![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
+![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
 3) Hacker should not be able to modify or access third party data and security credentials.
-![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
+![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case2.png)
 4) Files should be downloaded and uploaded only by authorized users and files should be free from malicious data.
-![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case4.png)
+![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case4.png)
 5) Lazy user should not insert backdoor work details into the VCS.
-![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case5.png)
+![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/case5.png)
 
 The misuse case diagrams for Assurance Army are availble at: https://www.lucidchart.com/invitations/accept/5bbd6788-daf1-4525-a654-cf131b477def
 
