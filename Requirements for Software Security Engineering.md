@@ -14,15 +14,16 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 # Security requirements for use cases using misuse case diagrams
 
-1) A Poor Bank Clerk should not be able to transfer money to his own account.
+1) A Poor Bank Clerk should not be able to transfer money to his own account: </br>
+In view of the Nuxeo project, there are different kind of users who manages the content stored in the repository. There are shared documents which grabs the attention of security. Some documents are highly confidential, only limited people can have access to it. In order to restrict the access there should be user level and group level permissions set by the admin. Unauthorized persons should not alter the access permissions either by brute force attack or Signature scoof.
 ![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case1.png)
-2) DeadBeat Derrick should not be able to erase his debt amount.
+2) DeadBeat Derrick should not be able to erase his debt amount: </br>
 ![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case2.png)
-3) A Competing Bank Hacker should not be able to ruin the application.
-![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case3.png)
-4) Grad student with free time should not be able to insert virus into the Bank System.
+3) A Competing Bank Hacker should not be able to ruin the application: </br>
+![Case3:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case3.png)
+4) Grad student with free time should not be able to insert virus into the Bank System: </br>
 ![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case4.png)
-5) Disgruntled Bank Clerk should not able to Alter/Detele history.
+5) Disgruntled Bank Clerk should not able to Alter/Detele history: </br>
 ![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case5.png)
 
 
