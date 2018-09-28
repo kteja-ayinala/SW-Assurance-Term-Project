@@ -26,7 +26,7 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 ![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case5.png)
 
 
-# Security requirements with advertised features
+# Alignment of Security requirements with advertised features
 
 1)The nuxeo platform has the required authentication functionality, more details about the nuxeo authentication is available at: https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 https://doc.nuxeo.com/nxdoc/nuxeo-duoweb-two-factor-authentication/
