@@ -62,7 +62,7 @@ This is just the tip of the iceberg as there exists extensive documentation that
 
 # GitHub project management
 
-[Project](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/2)
+Project Management Board: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/2
 
 
 **Reference:** </br>
