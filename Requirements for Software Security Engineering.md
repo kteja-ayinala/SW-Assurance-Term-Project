@@ -38,10 +38,10 @@ However, nuxeo doesnot provide SSL encryption.
 
 3. 
 
-4. Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: <\br>
+4. Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: </br>
 https://doc.nuxeo.com/nxdoc/file-download-security-policies/
 
-5. Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: <\br> https://doc.nuxeo.com/nxdoc/versioning/
+5. Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: </br> https://doc.nuxeo.com/nxdoc/versioning/
 
 # Security related configuration and installation issues
 
