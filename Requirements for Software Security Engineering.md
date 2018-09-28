@@ -14,16 +14,15 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 # Security requirements for use cases using misuse case diagrams
 
-1) A Poor Bank Clerk should not be able to transfer money to his own account: </br>
-In view of the Nuxeo project, there are different kind of users who manages the content stored in the repository. There are shared documents which grabs the attention of security. Some documents are highly confidential, only limited people can have access to it. In order to restrict the access there should be user level and group level permissions set by the admin. Unauthorized persons should not alter the access permissions either by brute force attack or Signature scoof.
+1) System Admin wants to set user roles, while Poor Bank Clerk wants to steal money and transfer it to his Swiss bank account. His role permissions are not enough to accomplish the money transfer, so he needs to access admin permissions in order to change his user role. To accomplish this theft, Poor Bank Clerk uses a Brute Force Attack to guess the System Admin’s password. This attack is prevented by implementing a lock-out policy that locks the login system once too many incorrect passwords are attempted. Poor Bank Clerk will use a Signature Spoof and appear to have more authority than he actually possesses to gain access to bypass the lock-out policy. However, two-factor authentication will prevent the use of a Signature Spoof. <br>
 ![Case1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case1.png)
-2) DeadBeat Derrick should not be able to erase his debt amount: </br>
+2) Bank Manager wants to read and write data to the cloud, while DeadBeat Derrick wants to access this data to erase his debt amount. DeadBeat Derrick uses Buffer Manipulation to run his own commands and access the data. This attack is prevented by encrypting the data, but Deadbeat Derrick Drops the Encryption level to help his Buffer Manipulation succeed. SSL encryption is used to strengthen the encryption and prevent the attacks from succeeding.</br>
 ![Case2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case2.png)
-3) A Competing Bank Hacker should not be able to ruin the application: </br>
+3) Bank Application Developer wants to modify some documents for a 3rd party application while the Competing Bank Hacker wants to ruin the application. He uses Content Spoofing to make changes to the application documents, but secure transfer protocols are implemented to mitigate this attack. Competing Bank Hacker then uses Data Interchange Protocol Manipulation to bypass transfer protocols, but then block-chain technology is used to strengthen the transfer protocols and prevent the attacks.</br>
 ![Case3:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case3.png)
-4) Grad student with free time should not be able to insert virus into the Bank System: </br>
+4) Bank verification team wants to upload and download customer submitted customer documents, while Grad student with lots of free time wants to insert a virus into the bank system by sending an email with Infected Software. The email is acanned with anti-virus software prior to opening any attachments, but Grad student uses an Evercookie to save itself in the bank system and duplicate itself at a later time. An anti-cookie tool can be used to mitigate the Evercookie. </br>
 ![Case4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case4.png)
-5) Disgruntled Bank Clerk should not able to Alter/Detele history: </br>
+5) The Banking System wants to track its version control modifications while the Disgruntled Bank Clerk wants to damage the bank data by altering or deleting it’s history. The VCS stores metadata to mitigate the effects of wrongly altered or deleted history. Disgruntled Bank Clerk tries to directly over-write the metadata, but his is prevented by making the metadate immutable. To help keep the bank data secure (which includes the above scenario) a System Admin will monitor a VCS using behavioral analytics to detect and unusual activity. </br>
 ![Case5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Misuse%20case%20diagrams/case5.png)
 
 
