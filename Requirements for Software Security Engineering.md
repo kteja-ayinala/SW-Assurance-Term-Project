@@ -30,14 +30,13 @@ Project: Nuxeo
 
 # Alignment of Security requirements with advertised features
 
-The nuxeo platform has the required authentication functionality where it allows the user to login with credentials and the complexity of the password can be check against a regular expression. Nuxeo also allows users to login with some other Authentication Protocols such as: SAML 2.0, OpenID, Two-factor authentication, Kerberos, CAS/CAS 2.0. The users of Nuxeo platform can also provide 'unauthenticated access' on some documents in order to make them accessible to anonymous users. The administrator can manage users' passwords.<br/>
-More details about the nuxeo authentication are available at:
+The nuxeo platform has the required authentication functionality where it allows the user to login with credentials and the complexity of the password can be check against a regular expression. Nuxeo also allows users to login with some other Authentication Protocols such as: SAML 2.0, OpenID, Two-factor authentication, Kerberos, CAS/CAS 2.0. The users of Nuxeo platform can also provide 'unauthenticated access' on some documents in order to make them accessible to anonymous users. The administrator can manage users' passwords.More details about the nuxeo authentication are available at:
 https://doc.nuxeo.com/nxdoc/authentication-and-user-management/  </br> 
-Data acccess is managed in the nuxeo platform. It provides various types of encryption such as: Binaries Encryption, FileSystem AES Encryption, S3 Encryption. More details about the nuxeo encryption is available at:</br>
+Data acccess is managed in the nuxeo platform. It provides various types of encryption such as: Binaries Encryption, FileSystem AES Encryption, S3 Encryption. More details about the nuxeo encryption is available at:
 https://doc.nuxeo.com/nxdoc/implementing-encryption/</br>
 Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: 
 https://doc.nuxeo.com/nxdoc/file-download-security-policies/  </br> 
-Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: </br> https://doc.nuxeo.com/nxdoc/versioning/  </br> 
+Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: https://doc.nuxeo.com/nxdoc/versioning/  </br> 
 
 # Security related configuration and installation issues
 
