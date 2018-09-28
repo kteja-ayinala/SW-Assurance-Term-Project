@@ -36,7 +36,8 @@ https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 https://doc.nuxeo.com/nxdoc/implementing-encryption/</br>
 However, nuxeo doesnot provide SSL encryption.
 
-3. 
+3. https://doc.nuxeo.com/nxdoc/upload-and-store/
+
 
 4. Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: </br>
 https://doc.nuxeo.com/nxdoc/file-download-security-policies/
