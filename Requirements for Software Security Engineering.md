@@ -29,12 +29,12 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 # Alignment of Security requirements with advertised features
 
 1)The nuxeo platform has the required authentication functionality where it allows the user to login with credentials and the complexity of the password can be check against a regular expression. Nuxeo also allows users to login with some other Authentication Protocols such as: SAML 2.0, OpenID, Two-factor authentication, Kerberos, CAS/CAS 2.0. The users of Nuxeo platform can also provide 'unauthenticated access' on some documents in order to make them accessible to anonymous users. The administrator can manage users' passwords.<br/>
-More details about the nuxeo authentication are available at: https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
+More details about the nuxeo authentication are available at: </br> 
+https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 
-2)Data acccess is managed in the nuxeo platform, more details about the nuxeo authentication is available at:
-https://doc.nuxeo.com/nxdoc/implementing-encryption/
-https://doc.nuxeo.com/nxdoc/security/#managing-permissions-on-content
-
+2)Data acccess is managed in the nuxeo platform. It provides various types of encryption such as: Binaries Encryption, FileSystem AES Encryption, S3 Encryption. More details about the nuxeo encryption is available at:</br>
+https://doc.nuxeo.com/nxdoc/implementing-encryption/</br>
+However, nuxeo doesnot provide SSL encryption.
 
 3)
 
