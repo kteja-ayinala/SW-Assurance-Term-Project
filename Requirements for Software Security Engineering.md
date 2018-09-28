@@ -1,7 +1,9 @@
 # Requirements for Software Security Engineering
 **CSCI - 8420:  Assurance Army**
 
-Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu     
+Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu   </br>
+
+Project: Nuxeo
 
 # Data flows: (Admin, Users, Database, Drive, VCS)
 
@@ -28,21 +30,15 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu
 
 # Alignment of Security requirements with advertised features
 
-1. The nuxeo platform has the required authentication functionality where it allows the user to login with credentials and the complexity of the password can be check against a regular expression. Nuxeo also allows users to login with some other Authentication Protocols such as: SAML 2.0, OpenID, Two-factor authentication, Kerberos, CAS/CAS 2.0. The users of Nuxeo platform can also provide 'unauthenticated access' on some documents in order to make them accessible to anonymous users. The administrator can manage users' passwords.<br/>
+The nuxeo platform has the required authentication functionality where it allows the user to login with credentials and the complexity of the password can be check against a regular expression. Nuxeo also allows users to login with some other Authentication Protocols such as: SAML 2.0, OpenID, Two-factor authentication, Kerberos, CAS/CAS 2.0. The users of Nuxeo platform can also provide 'unauthenticated access' on some documents in order to make them accessible to anonymous users. The administrator can manage users' passwords.<br/>
 More details about the nuxeo authentication are available at: </br> 
 https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
-
-2. Data acccess is managed in the nuxeo platform. It provides various types of encryption such as: Binaries Encryption, FileSystem AES Encryption, S3 Encryption. More details about the nuxeo encryption is available at:</br>
+Data acccess is managed in the nuxeo platform. It provides various types of encryption such as: Binaries Encryption, FileSystem AES Encryption, S3 Encryption. More details about the nuxeo encryption is available at:</br>
 https://doc.nuxeo.com/nxdoc/implementing-encryption/</br>
 However, nuxeo doesnot provide SSL encryption.
-
-3. https://doc.nuxeo.com/nxdoc/upload-and-store/
-
-
-4. Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: </br>
+Security on content is available in the nuxeo platform. It provides fine-grained file permissions such as preventing file download. more details on data security is available at: </br>
 https://doc.nuxeo.com/nxdoc/file-download-security-policies/
-
-5. Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: </br> https://doc.nuxeo.com/nxdoc/versioning/
+Nuxeo provides both manual and automatic versioning. Users with access rights can edit the document only after checking out the document. An immutable, version of documents is created by Checkin operation. More details on versioning is available at: </br> https://doc.nuxeo.com/nxdoc/versioning/
 
 # Security related configuration and installation issues
 
@@ -69,4 +65,9 @@ This is just the tip of the iceberg as there exists extensive documentation that
 # GitHub project management
 
 [Project](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/2)
+
+
+**Reference:** </br>
+Project link: https://github.com/nuxeo </br> 
+Documentation link: https://doc.nuxeo.com/
 
