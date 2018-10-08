@@ -2,25 +2,26 @@
 
 Assurance Army
 
-1. Nuxeo offers strong authentication.
+1. The Nuxeo platform has strong authentication.
 
 https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 
-2. Data in nuxeo is protected from external threats.
+2. The Nuxeo platform protects data from external threats.
 
 https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/
 https://doc.nuxeo.com/nxdoc/implementing-encryption/
 
-3. Nuxeo has strong file permissions.
+3. The Nuxeo platform offers strong file permissions.
 
 https://doc.nuxeo.com/nxdoc/security/#page-title
 
-4. Nuxeos ensures proper maintaing of all versions of data.
+4. The Nuxeo platform securely maintains all versions of data.
+
 
 https://doc.nuxeo.com/nxdoc/content-repository/
 https://doc.nuxeo.com/nxdoc/security-policy-service/
 
-5. Data transfer from and into cloud is secured.
+5. The Nuxeo platform securely transfers data to the cloud and servers.
 
 https://doc.nuxeo.com/nxdoc/acls/
 https://doc.nuxeo.com/nxdoc/nuxeo-security-system/
