@@ -2,9 +2,13 @@
 
 Assurance Army
 
-1. The Nuxeo platform has strong authentication.
+1. The Nuxeo Platform's authentication protocols minimize unwanted access
 
-https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
+[1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ <br>
+[2] https://doc.nuxeo.com/nxdoc/nuxeo-duoweb-two-factor-authentication/ <br>
+[3] https://doc.nuxeo.com/nxdoc/using-oauth2/ <br>
+[4] https://doc.nuxeo.com/nxdoc/authentication-chain-principles/ <br>
+[5] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ <br>
 
 2. The Nuxeo platform protects data from external threats.
 
