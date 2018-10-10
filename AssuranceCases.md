@@ -11,7 +11,7 @@ https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/
 https://doc.nuxeo.com/nxdoc/implementing-encryption/
 
-3. he nuxeo platform  reduces most of the un-anticipated threats to files.
+3. The nuxeo platform  reduces most of the un-anticipated threats to files.
 
 https://doc.nuxeo.com/nxdoc/security/#page-title
 how-to-grant-the-edit-permission-without-the-remove-permission/
