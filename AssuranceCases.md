@@ -11,9 +11,13 @@ https://doc.nuxeo.com/nxdoc/authentication-and-user-management/
 https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/
 https://doc.nuxeo.com/nxdoc/implementing-encryption/
 
-3. The Nuxeo platform offers strong file permissions.
+3. he nuxeo platform  reduces most of the un-anticipated threats to files.
 
 https://doc.nuxeo.com/nxdoc/security/#page-title
+how-to-grant-the-edit-permission-without-the-remove-permission/
+https://doc.nuxeo.com/nxdoc/file-download-security-policies/
+https://doc.nuxeo.com/userdoc/permissions/#permissions-overview
+https://doc.nuxeo.com/userdoc/administration/#users-and-groups - permisssion admin
 
 4. The Nuxeo platform securely maintains all versions of data.
 
