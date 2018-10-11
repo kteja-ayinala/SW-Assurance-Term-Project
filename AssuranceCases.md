@@ -4,7 +4,7 @@ Assurance Army
 
 1. The Nuxeo Platform's authentication protocols minimize unwanted access
 
-[1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ <br>
+[1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ Default Authentication Mode - Login Page<br>
 [2] https://doc.nuxeo.com/nxdoc/nuxeo-duoweb-two-factor-authentication/ <br>
 [3] https://doc.nuxeo.com/nxdoc/using-oauth2/ <br>
 [4] https://doc.nuxeo.com/nxdoc/authentication-chain-principles/ <br>
