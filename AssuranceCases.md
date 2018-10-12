@@ -26,10 +26,16 @@ https://doc.nuxeo.com/nxdoc/file-download-security-policies/
 https://doc.nuxeo.com/userdoc/permissions/#permissions-overview
 https://doc.nuxeo.com/userdoc/administration/#users-and-groups - permisssion admin
 ----------------------------------------------------------------------------------------------------------------------------------------
-4.  Nuxeo version control mitigates undesired effects from altered data
+4.  Nuxeo version control mitigates undesired effects from altered documents
 
-https://doc.nuxeo.com/nxdoc/content-repository/
-https://doc.nuxeo.com/nxdoc/security-policy-service/
+[1]https://doc.nuxeo.com/nxdoc/versioning/ Automatic Versioning<br>
+- There are different rules for altering your own documents or another user's<br>
+
+[2]https://doc.nuxeo.com/nxdoc/security-policy-service/ Document Security Checks<br>
+- Even if access to the system is gained, documents require permissions to view, edit, and delete
+
+[3]https://doc.nuxeo.com/nxdoc/vcs/#easy-and-safe-hot-backup Easy and Safe Hot Backup
+- Sort of a double backup to prevent document loss
 ----------------------------------------------------------------------------------------------------------------------------------------
 5. Data transfers in Nuxeo are secure
 
