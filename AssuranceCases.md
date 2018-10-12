@@ -3,6 +3,7 @@
 Assurance Army
 
 1. The Nuxeo Platform's login authentication protocols minimize unwanted access
+![Case 1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim1.png)
 
 [1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ Default Authentication Mode - Login Page<br>
 - The same section contains information about both password acceptance and password change<br>
@@ -27,6 +28,7 @@ https://doc.nuxeo.com/userdoc/permissions/#permissions-overview
 https://doc.nuxeo.com/userdoc/administration/#users-and-groups - permisssion admin
 ----------------------------------------------------------------------------------------------------------------------------------------
 4.  Nuxeo version control mitigates undesired effects from altered documents
+![Case 4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim4.png)
 
 [1]https://doc.nuxeo.com/nxdoc/versioning/ Automatic Versioning<br>
 - There are different rules for altering your own documents or another user's<br>
