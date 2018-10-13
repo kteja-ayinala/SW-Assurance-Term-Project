@@ -13,20 +13,15 @@ Assurance Army
 
 [3] https://doc.nuxeo.com/nxdoc/using-oauth2/#authorization-endpoint<br>
 - Details the procedures for 3rd party access
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 2. The Nuxeo platform prevents unauthorized access to sensitive data
+![Case 2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim2.png)
 
-https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/
-https://doc.nuxeo.com/nxdoc/implementing-encryption/
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 3. The Nuxeo Platform access permissions prevent unwanted modification to files
+![Case 3:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim3.png)
 
-https://doc.nuxeo.com/nxdoc/security/#page-title
-how-to-grant-the-edit-permission-without-the-remove-permission/
-https://doc.nuxeo.com/nxdoc/file-download-security-policies/
-https://doc.nuxeo.com/userdoc/permissions/#permissions-overview
-https://doc.nuxeo.com/userdoc/administration/#users-and-groups - permisssion admin
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 4.  Nuxeo version control mitigates undesired effects from altered documents
 ![Case 4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim4.png)
 
@@ -40,10 +35,7 @@ https://doc.nuxeo.com/userdoc/administration/#users-and-groups - permisssion adm
 - Sort of a double backup to prevent document loss
 ----------------------------------------------------------------------------------------------------------------------------------------
 5. Data transfers in Nuxeo are secure
+![Case 5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim5.png)
 
-https://doc.nuxeo.com/nxdoc/acls/
-https://doc.nuxeo.com/nxdoc/nuxeo-security-system/
-https://doc.nuxeo.com/nxdoc/security-policy-service/
-https://doc.nuxeo.com/nxdoc/file-download-security-policies/
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Github Project Board: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/3
