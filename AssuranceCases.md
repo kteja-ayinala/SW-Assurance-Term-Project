@@ -1,8 +1,11 @@
 # Assurance Cases
+**CSCI - 8420:  Assurance Army**
 
-Assurance Army
+Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu   </br>
 
-1. The Nuxeo Platform's login authentication protocols minimize unwanted access
+Project: Nuxeo
+
+# 1. The Nuxeo Platform's login authentication protocols minimize unwanted access
 ![Case 1:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim1.png)
 
 [1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/ Default Authentication Mode - Login Page<br>
@@ -14,7 +17,7 @@ Assurance Army
 [3] https://doc.nuxeo.com/nxdoc/using-oauth2/#authorization-endpoint<br>
 - Details the procedures for 3rd party access
 -----------------------------------------------------------------------------------------------------------------------------
-2. The Nuxeo platform prevents unauthorized access to sensitive data
+# 2. The Nuxeo platform prevents unauthorized access to sensitive data
 ![Case 2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim2.png)
 
 
@@ -24,11 +27,23 @@ Assurance Army
 [2] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/#encrypting-with-key-from-keystore Encrypting with Key from KeyStore - Decrypt with a key from a keystore<br>
 - Details the procedure to encode the encryption key.<br>
 -----------------------------------------------------------------------------------------------------------------------------
-3. The Nuxeo Platform access permissions prevent unwanted modification to files
+# 3. The Nuxeo Platform access permissions prevent unwanted modification to files
 ![Case 3:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim3.png)
 
+[1] https://doc.nuxeo.com/nxdoc/authentication-and-user-management/<br>
+
+- The strong authentication constraints of the Nuxeo platform restricts password stealing.
+
+[2] https://doc.nuxeo.com/nxdoc/security/#granting-permissions-to-external-users-instant-share<br>
+
+- The permissions to the files are time bound and prevents the unauthorized changes by the external users.
+
+[3] https://doc.nuxeo.com/nxdoc/versioning/<br>
+
+- The Nuxeo platform maintain versioning of all the modifications to the files.
+
 -----------------------------------------------------------------------------------------------------------------------------
-4.  Nuxeo version control mitigates undesired effects from altered documents
+# 4.  Nuxeo version control mitigates undesired effects from altered documents
 ![Case 4:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim4.png)
 
 [1]https://doc.nuxeo.com/nxdoc/versioning/ Automatic Versioning<br>
@@ -39,8 +54,8 @@ Assurance Army
 
 [3]https://doc.nuxeo.com/nxdoc/vcs/#easy-and-safe-hot-backup Easy and Safe Hot Backup
 - Sort of a double backup to prevent document loss
-----------------------------------------------------------------------------------------------------------------------------------------
-5. Data transfers in Nuxeo are secure
+-----------------------------------------------------------------------------------------------------------------------------
+# 5. Data transfers in Nuxeo are secure
 ![Case 5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim5.png)
 
 [1] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/<br>
