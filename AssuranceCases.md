@@ -17,6 +17,10 @@ Assurance Army
 2. The Nuxeo platform prevents unauthorized access to sensitive data
 ![Case 2:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim2.png)
 
+
+[1] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/#page-title Using different ciphering algorithms.<br>
+[2] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/#encrypting-with-key-from-keystore Encrypting with Key from KeyStore - Decrypt with a key from a keystore<br>
+
 -----------------------------------------------------------------------------------------------------------------------------
 3. The Nuxeo Platform access permissions prevent unwanted modification to files
 ![Case 3:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim3.png)
