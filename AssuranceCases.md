@@ -20,6 +20,7 @@ Assurance Army
 
 [1] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/#page-title Using different ciphering algorithms.<br>
 - Nuxeo uses advanced encryption algorithms such as AES/DES.<br>
+
 [2] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/#encrypting-with-key-from-keystore Encrypting with Key from KeyStore - Decrypt with a key from a keystore<br>
 - Details the procedure to encode the encryption key.<br>
 -----------------------------------------------------------------------------------------------------------------------------
@@ -41,6 +42,12 @@ Assurance Army
 ----------------------------------------------------------------------------------------------------------------------------------------
 5. Data transfers in Nuxeo are secure
 ![Case 5:](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Assurance%20case%20diagrams/Assurance%20Cases%20-%20AA%20-%20Claim5.png)
+
+[1] https://doc.nuxeo.com/nxdoc/sensitive-configuration-data-encryption/<br>
+- Details all the encryption techniques supported by Nuxeo.
+
+[2] https://doc.nuxeo.com/nxdoc/licenses/#third-party-licenses<br>
+- List of third party licenses allowed by Nuxeo.
 
 -----------------------------------------------------------------------------------------------------------------------------
 Github Project Board: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/3
