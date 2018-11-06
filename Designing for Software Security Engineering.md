@@ -6,5 +6,8 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu   </br>
 
 Project: Nuxeo
 
+# Threat model developed using Microsoft TMT for the Nuxeo project 
 
-Github Project Board: https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/4
+# Summary of Design related issues in the Nuxeo project
+
+**Github Project Board:** https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/4
