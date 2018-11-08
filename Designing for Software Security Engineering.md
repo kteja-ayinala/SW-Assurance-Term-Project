@@ -20,7 +20,7 @@ Nuxeo protects the data in the application and during transfer using standard en
 
 Nuxeo has version control repository which keeps track of all the data modifications. It allows users to easily revert to a specific version of document just by clicking on the version number. Nuxeo’s version control repository creates immutable, archived version of the document. More details about versioning can be found at - [nuxeo versioning](https://doc.nuxeo.com/nxdoc/versioning/#concepts) </br>
 
-Nuxeo allows remote monitoring of server through Secure Shell. More details about SSH can be found at - [SSH remote access] (https://doc.nuxeo.com/nxdoc/remote-monitoring-through-a-ssh-tunnel/#page-title) </br>
+Nuxeo allows remote monitoring of server through Secure Shell. More details about SSH can be found at - [SSH remote access](https://doc.nuxeo.com/nxdoc/remote-monitoring-through-a-ssh-tunnel/) </br>
 
 Nuxeo allows user to implement time-out when the application is not in use for a specific time period. It also provides security recommendations to the config files such as avoid sending server version, ability to prevent cross-side scripting, accepting only SSL high quality ciphers. More details about security recommendations can be found at - [nuxeo security recommendations](https://doc.nuxeo.com/nxdoc/security-recommendations/)
 
