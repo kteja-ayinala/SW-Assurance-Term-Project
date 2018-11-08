@@ -12,7 +12,10 @@ Project: Nuxeo
 
 # Summary of Design related issues in the Nuxeo project
 
-Nuxeo has successfully mitigated major threats across the important data flows. Nuxeo has provided strong authentication mechanisms which prevents unauthorized access to the sensitive information. It has implemented authentication techniques such as two-factor authentication and other authentication protocols. More details about authentication can be found at - [nuxeo authentication](https://doc.nuxeo.com/nxdoc/authentication-and-user-management/) </br>
+Nuxeo has successfully mitigated major threats across important data flows. The tool has identified 51 threats, out of which 45 threats are mitigated and 6 threats related to datastore security need investigation.   </br> 
+
+
+Nuxeo has provided strong authentication mechanisms which prevents unauthorized access to the sensitive information. It has implemented authentication techniques such as two-factor authentication and other authentication protocols. More details about authentication can be found at - [nuxeo authentication](https://doc.nuxeo.com/nxdoc/authentication-and-user-management/) </br>
 
 Nuxeo mitigates data flow interruptions by using HTTP and HTTPS Reverse-Proxy Configuration. More details about implementations can be found at- [http/https reverse proxy configuration](https://doc.nuxeo.com/nxdoc/http-and-https-reverse-proxy-configuration/) </br>
 
