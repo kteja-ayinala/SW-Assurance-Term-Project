@@ -6,6 +6,7 @@ Aaron Kirby, Krishna Teja Ayinala, Sindhura Bonthu   </br>
 Project: Nuxeo
 
 # Code review Strategy
+Nuxeo is a very large open-source project with copious amounts of code. 
 Checklist based  and Scenario-based.
 
 
