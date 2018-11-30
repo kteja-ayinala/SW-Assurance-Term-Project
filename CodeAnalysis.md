@@ -37,7 +37,7 @@ There was a lot of code to manually review, but I could not find any glaring sec
 
 
 4) Export data into different formats, specific permissions on RWX. (Read, write, download) </br>
-The autmated PMD tool found a potential [weakness](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-7.xml)), but manually reviewing the code revealed it to be a false positive. The method does create an new instance with every method call, but the user is then mapped to 1 of 3 scenarios or an excption is thrown. The weakness PMD was addressing is handled in the thrown exception.
+The autmated PMD tool found a potential [weakness](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-7.xml), but manually reviewing the code revealed it to be a false positive. The method does create an new instance with every method call, but the user is then mapped to 1 of 3 scenarios or an excption is thrown. The weakness PMD was addressing is handled in the thrown exception.
 
 
 5) Maintaining proper VCS of modifications on the shared doc. (Audit)
