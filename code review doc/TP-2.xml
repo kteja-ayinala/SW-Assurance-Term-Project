@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-30T14:58:23.585">
+<file name="/Users/krishnatejaayinala/Desktop/SA/nuxeo-master/nuxeo-services/login/nuxeo-platform-login-portal-sso/src/main/java/org/nuxeo/ecm/platform/ui/web/auth/portal/PortalAuthenticator.java">
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="80" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.ui.web.auth.portal" class="PortalAuthenticator" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="132" endline="132" begincolumn="13" endcolumn="62" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.ui.web.auth.portal" class="PortalAuthenticator" method="validateToken" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="144" endline="144" begincolumn="27" endcolumn="36" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.platform.ui.web.auth.portal" class="PortalAuthenticator" method="validateToken" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

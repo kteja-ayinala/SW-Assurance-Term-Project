@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-30T14:51:47.059">
+<file name="/Users/krishnatejaayinala/Desktop/SA/nuxeo-master/nuxeo-features/nuxeo-elasticsearch/nuxeo-elasticsearch-web/src/main/java/org/nuxeo/elasticsearch/web/admin/ElasticSearchManager.java">
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="81" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.elasticsearch.web.admin" class="ElasticSearchManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="114" endline="114" begincolumn="9" endcolumn="72" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.elasticsearch.web.admin" class="ElasticSearchManager" method="startReindexAll" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/krishnatejaayinala/Desktop/SA/nuxeo-master/nuxeo-features/nuxeo-elasticsearch/nuxeo-elasticsearch-web/src/main/java/org/nuxeo/elasticsearch/web/admin/PageProviderStatus.java">
+<violation beginline="39" endline="48" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" package="org.nuxeo.elasticsearch.web.admin" class="PageProviderStatus" method="PageProviderStatus" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
+A switch statement does not contain a break
+</violation>
+<violation beginline="71" endline="71" begincolumn="16" endcolumn="83" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.elasticsearch.web.admin" class="PageProviderStatus" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="71" endline="71" begincolumn="52" endcolumn="82" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.elasticsearch.web.admin" class="PageProviderStatus" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+</pmd>
