@@ -27,8 +27,8 @@ We were able to analyse our identified code sections on PMD,  based on the defau
 
 # Findings from manual code review
 
-1) Form and set group permissions. (Authentication)
-
+1) Form and set group permissions. (Authentication) </br>
+There was a lot of code to manually review, but I could not find any glaring security weaknesses. Nuxeo Platform uses Findbugs as part of it's automated code review, so it's not surprising that obvious errors are absent. Checked SRD??
 
 2) Edit, save, or modify data to the cloud. (Encryption)
 
@@ -36,17 +36,20 @@ We were able to analyse our identified code sections on PMD,  based on the defau
 3) Store and retrieve data from the database, drive. (Third-party)
 
 
-4) Export data into different formats, specific permissions on RWX.(Read, write, download)
+4) Export data into different formats, specific permissions on RWX.(Read, write, download) </br>
+Write which parts of STRIDE were checked based on our threat model. Try and fit that Singleton violation to a CWE as well as the logger level guards. Check what past groups said in this and the automated section.
 
 
 5) Maintaining proper VCS of modifications on the shared doc. (Audit)
+
 
 # Findings from automated code scanning
 PMD is the only tool we were able to get working. The analysis is done in the command line and the output can be either text or xml. The following summaries are grouped by the data flows we identified.
 
 [Full Report](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/Codereview%20reference%20links/Full-Report-nuxeo.xml): output of the entire Nuxeo Platform code base. Only specified areas were reviewed for security threats.
 
-1) Form and set group permissions. (Authentication)
+1) Form and set group permissions. (Authentication) [1](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-1.xml) [2](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-2.xml) [3](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-3.xml) [4](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-4.xml) [5](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-5.xml) [6](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-6.xml) [7](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-7.xml) [8](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-8.xml) [9](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-9.xml) [10](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-10.xml) [11](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-11.xml) [12](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-12.xml) </br>
+Code for authentication is found in many different places, which makes sense since it is a very basic, yet important security measure. PMD found many violations; however, the vast majority are stylistic. One common violation is "Logger calls should be surrounded by log level guards." The only violation of note is "[getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-7.xml)"
 
 
 2) Edit, save, or modify data to the cloud. (Encryption)
@@ -55,7 +58,8 @@ PMD is the only tool we were able to get working. The analysis is done in the co
 3) Store and retrieve data from the database, drive. (Third-party)
 
 
-4) Export data into different formats, specific permissions on RWX.(Read, write, download)
+4) Export data into different formats, specific permissions on RWX.(Read, write, download) [1](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-1.xml) [2](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-2.xml) [3](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-3.xml) [4](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-4.xml) [5](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-5.xml) </br>
+This data flow mainly exists in the code dealing with versioning or the repository. "Logger calls should be surrounded by log level guards" is quite common once again with all other violations being stylistic or best practices; no large security threats were identified.
 
 
 5) Maintaining proper VCS of modifications on the shared doc. (Audit)
