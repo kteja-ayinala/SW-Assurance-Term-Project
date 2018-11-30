@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-30T14:01:51.083">
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-common/src/main/java/org/nuxeo/common/codec/Crypto.java">
+<violation beginline="70" endline="70" begincolumn="5" endcolumn="67" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.common.codec" class="Crypto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="256" endline="256" begincolumn="13" endcolumn="82" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.common.codec" class="Crypto" method="decrypt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="257" endline="257" begincolumn="13" endcolumn="96" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.common.codec" class="Crypto" method="decrypt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="389" endline="389" begincolumn="13" endcolumn="72" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.common.codec" class="Crypto" method="setKeyInKeyStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-common/src/main/java/org/nuxeo/common/codec/CryptoProperties.java">
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="77" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.common.codec" class="CryptoProperties" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="97" endline="97" begincolumn="16" endcolumn="17" rule="LocalVariableNamingConventions" ruleset="Code Style" package="org.nuxeo.common.codec" class="CryptoProperties" method="evalCryptoID" variable="ID" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="135" endline="137" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.common.codec" class="CryptoProperties" method="getCrypto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="145" endline="145" begincolumn="13" endcolumn="64" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.common.codec" class="CryptoProperties" method="getCrypto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="184" endline="184" begincolumn="16" endcolumn="40" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.common.codec" class="CryptoProperties$PropertiesGetDefaults" method="getDefaultProperties" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'Hashtable'; use the interface instead
+</violation>
+<violation beginline="358" endline="358" begincolumn="25" endcolumn="46" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.common.codec" class="CryptoProperties" method="getProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
