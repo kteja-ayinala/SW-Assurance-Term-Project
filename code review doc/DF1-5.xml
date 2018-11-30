@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:36:58.197">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\io\NuxeoGroupJsonReader.java">
+<violation beginline="97" endline="97" begincolumn="41" endcolumn="98" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.platform.usermanager.io" class="NuxeoGroupJsonReader" method="readEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

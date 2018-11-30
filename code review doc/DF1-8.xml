@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:51:22.677">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\clients\OAuth2ClientServiceImpl.java">
+<violation beginline="45" endline="45" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.platform.oauth2.clients" class="OAuth2ClientServiceImpl" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="84" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.clients" class="OAuth2ClientServiceImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>

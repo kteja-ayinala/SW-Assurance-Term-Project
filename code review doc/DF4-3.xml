@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:48:48.577">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-csv-export\src\main\java\org\nuxeo\ecm\platform\csv\export\io\DocumentModelCSVHelper.java">
+<violation beginline="68" endline="159" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.nuxeo.ecm.platform.csv.export.io" class="DocumentModelCSVHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-csv-export\src\main\java\org\nuxeo\ecm\platform\csv\export\io\DocumentModelCSVWriter.java">
+<violation beginline="54" endline="56" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="org.nuxeo.ecm.platform.csv.export.io" class="DocumentModelCSVWriter" method="DocumentModelCSVWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="140" endline="142" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.ecm.platform.csv.export.io" class="DocumentModelCSVWriter" method="writeProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-csv-export\src\main\java\org\nuxeo\ecm\platform\csv\export\io\DocumentModelListCSVWriter.java">
+<violation beginline="43" endline="45" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="org.nuxeo.ecm.platform.csv.export.io" class="DocumentModelListCSVWriter" method="DocumentModelListCSVWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-csv-export\src\main\java\org\nuxeo\ecm\platform\csv\export\io\DocumentPropertyCSVWriter.java">
+<violation beginline="57" endline="59" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="org.nuxeo.ecm.platform.csv.export.io" class="DocumentPropertyCSVWriter" method="DocumentPropertyCSVWriter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+</file>
+</pmd>

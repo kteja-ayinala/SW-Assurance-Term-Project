@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:52:25.846">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\request\AuthorizationRequest.java">
+<violation beginline="63" endline="63" begincolumn="5" endcolumn="81" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.request" class="AuthorizationRequest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\request\OAuth2Request.java">
+<violation beginline="42" endline="43" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.platform.oauth2.request" class="OAuth2Request" method="OAuth2Request" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="60" endline="62" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.request" class="OAuth2Request" method="decodeParameter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

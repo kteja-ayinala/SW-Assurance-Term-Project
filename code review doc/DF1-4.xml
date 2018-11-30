@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:36:29.206">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\DefaultUserMultiTenantManagement.java">
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="95" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="DefaultUserMultiTenantManagement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="82" endline="83" begincolumn="13" endcolumn="55" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="DefaultUserMultiTenantManagement" method="queryTransformer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\FakeUserManagerImpl.java">
+<violation beginline="471" endline="472" begincolumn="42" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.nuxeo.ecm.platform.usermanager" class="FakeUserManagerImpl" method="handleEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\UserAdapterImpl.java">
+<violation beginline="36" endline="36" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserAdapterImpl" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="76" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserAdapterImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="73" rule="SimplifyConditional" ruleset="Design" package="org.nuxeo.ecm.platform.usermanager" class="UserAdapterImpl" method="UserAdapterImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifyconditional" priority="3">
+No need to check for null before an instanceof
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\UserManagerImpl.java">
+<violation beginline="97" endline="97" begincolumn="5" endcolumn="76" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="242" endline="243" begincolumn="13" endcolumn="76" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="setConfiguration" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="436" endline="436" begincolumn="17" endcolumn="111" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="checkUsernamePassword" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="464" endline="464" begincolumn="17" endcolumn="78" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="syncDigestAuthPassword" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="470" endline="470" begincolumn="21" endcolumn="82" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="syncDigestAuthPassword" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="538" endline="539" begincolumn="17" endcolumn="27" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="makeVirtualUserEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="707" endline="707" begincolumn="26" endcolumn="101" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="isAnonymousMatching" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="707" endline="707" begincolumn="68" endcolumn="100" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="isAnonymousMatching" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="955" endline="955" begincolumn="23" endcolumn="50" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="getQueryForPattern" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="1252" endline="1252" begincolumn="15" endcolumn="29" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="cloneSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="1524" endline="1524" begincolumn="16" endcolumn="62" rule="OptimizableToArrayCall" ruleset="Performance" package="org.nuxeo.ecm.platform.usermanager" class="UserManagerImpl" method="getUsersForPermission" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_performance.html#optimizabletoarraycall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\UserService.java">
+<violation beginline="47" endline="47" begincolumn="5" endcolumn="72" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager" class="UserService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-core\src\main\java\org\nuxeo\ecm\platform\usermanager\io\NuxeoGroupJsonReader.java">
+<violation beginline="97" endline="97" begincolumn="41" endcolumn="98" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.platform.usermanager.io" class="NuxeoGroupJsonReader" method="readEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

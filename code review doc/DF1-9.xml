@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:51:46.510">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\providers\NuxeoOAuth2ServiceProviderReader.java">
+<violation beginline="55" endline="55" begincolumn="29" endcolumn="61" rule="SimplifiedTernary" ruleset="Design" package="org.nuxeo.ecm.platform.oauth2.providers" class="NuxeoOAuth2ServiceProviderReader" method="readEntity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifiedternary" priority="3">
+Ternary operators that can be simplified with || or &amp;&amp;
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\providers\NuxeoOAuth2ServiceProviderWriter.java">
+<violation beginline="83" endline="83" begincolumn="33" endcolumn="45" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.platform.oauth2.providers" class="NuxeoOAuth2ServiceProviderWriter" method="writeEntityBody" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\providers\OAuth2ServiceProviderContributionRegistry.java">
+<violation beginline="34" endline="34" begincolumn="5" endcolumn="104" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderContributionRegistry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\providers\OAuth2ServiceProviderRegistryImpl.java">
+<violation beginline="48" endline="48" begincolumn="5" endcolumn="96" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="115" endline="115" begincolumn="32" endcolumn="71" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="addProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="116" endline="116" begincolumn="78" endcolumn="114" rule="SimplifiedTernary" ruleset="Design" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="addProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifiedternary" priority="3">
+Ternary operators that can be simplified with || or &amp;&amp;
+</violation>
+<violation beginline="118" endline="119" begincolumn="17" endcolumn="88" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="addProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="142" endline="143" begincolumn="17" endcolumn="88" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="updateProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="200" endline="200" begincolumn="13" endcolumn="112" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="registerContribution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="219" endline="220" begincolumn="17" endcolumn="94" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceProviderRegistryImpl" method="registerCustomProviders" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\providers\OAuth2ServiceUserStore.java">
+<violation beginline="42" endline="42" begincolumn="5" endcolumn="85" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.providers" class="OAuth2ServiceUserStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>

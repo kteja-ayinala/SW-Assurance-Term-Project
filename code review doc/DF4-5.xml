@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:58:00.602">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\BaseDocument.java">
+<violation beginline="823" endline="825" begincolumn="97" endcolumn="13" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="BaseDocument" method="writeComplexProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="823" endline="823" begincolumn="25" endcolumn="93" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="BaseDocument" method="writeComplexProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="885" endline="887" begincolumn="47" endcolumn="21" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="BaseDocument" method="writeComplexProperty" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="995" endline="997" begincolumn="38" endcolumn="13" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="BaseDocument$Visit" method="visitBlobsField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="1009" endline="1011" begincolumn="47" endcolumn="17" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="BaseDocument$Visit" method="visitBlobsField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\ExpressionEvaluator.java">
+<violation beginline="298" endline="299" begincolumn="13" endcolumn="80" rule="AssignmentInOperand" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="walkIsTrashed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#assignmentinoperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="299" endline="299" begincolumn="21" endcolumn="79" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="walkIsTrashed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="660" endline="660" begincolumn="21" endcolumn="39" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="like" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="661" endline="661" begincolumn="21" endcolumn="39" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="like" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="665" endline="665" begincolumn="9" endcolumn="21" rule="UnnecessaryLocalBeforeReturn" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="like" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn" priority="3">
+Consider simply returning the value vs storing it in local variable 'match'
+</violation>
+<violation beginline="679" endline="713" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="likeToRegex" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+<violation beginline="714" endline="716" begincolumn="21" endcolumn="9" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="likeToRegex" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="723" endline="723" begincolumn="30" endcolumn="44" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="eqMaybeList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="738" endline="738" begincolumn="30" endcolumn="44" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="inMaybeList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="752" endline="752" begincolumn="30" endcolumn="44" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="likeMaybeList" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="801" endline="801" begincolumn="37" endcolumn="70" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="fulltext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="809" endline="809" begincolumn="46" endcolumn="70" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="fulltext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="860" endline="860" begincolumn="24" endcolumn="41" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="parseFullText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="902" endline="902" begincolumn="47" endcolumn="47" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="ExpressionEvaluator" method="parseWord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\FulltextConfigurationFactory.java">
+<violation beginline="51" endline="276" begincolumn="43" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.nuxeo.ecm.core.storage" class="FulltextConfigurationFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="51" endline="276" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="FulltextConfigurationFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'FulltextConfigurationFactory' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="89" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="FulltextConfigurationFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="102" endline="102" begincolumn="21" endcolumn="111" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="FulltextConfigurationFactory" method="make" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\FulltextDescriptor.java">
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="29" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="FulltextDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="50" endline="50" begincolumn="44" endcolumn="50" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="FulltextDescriptor$FulltextIndexDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="53" endline="53" begincolumn="51" endcolumn="57" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="FulltextDescriptor$FulltextIndexDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="56" endline="57" begincolumn="16" endcolumn="9" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.storage" class="FulltextDescriptor$FulltextIndexDescriptor" method="FulltextIndexDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="157" endline="158" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.storage" class="FulltextDescriptor" method="FulltextDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\FulltextExtractorWork.java">
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="82" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="FulltextExtractorWork" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="256" endline="256" begincolumn="26" endcolumn="104" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="FulltextExtractorWork" method="removeHtml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\State.java">
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="68" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="State" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="99" endline="101" begincolumn="20" endcolumn="5" rule="UnnecessaryModifier" ruleset="Code Style" package="org.nuxeo.ecm.core.storage" class="State" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'static' on enum 'Nop': nested enums are implicitly static
+</violation>
+<violation beginline="567" endline="567" begincolumn="17" endcolumn="119" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="State" method="getSingle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="599" endline="599" begincolumn="20" endcolumn="39" rule="OverrideBothEqualsAndHashcode" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="State" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#overridebothequalsandhashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\StateHelper.java">
+<violation beginline="41" endline="507" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.nuxeo.ecm.core.storage" class="StateHelper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="65" endline="65" begincolumn="13" endcolumn="18" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsStrict" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="94" endline="94" begincolumn="13" endcolumn="18" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsStrict" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="129" endline="129" begincolumn="13" endcolumn="18" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsStrict" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="138" endline="138" begincolumn="14" endcolumn="74" rule="OneDeclarationPerLine" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsStrict" variable="ita" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="153" endline="153" begincolumn="13" endcolumn="18" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsLoose" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="250" endline="250" begincolumn="13" endcolumn="18" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsLoose" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+<violation beginline="259" endline="259" begincolumn="14" endcolumn="74" rule="OneDeclarationPerLine" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage" class="StateHelper" method="equalsLoose" variable="ita" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\lock\LockManagerDescriptor.java">
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="31" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="org.nuxeo.ecm.core.storage.lock" class="LockManagerDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="31" endline="32" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.storage.lock" class="LockManagerDescriptor" method="LockManagerDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core-storage\src\main\java\org\nuxeo\ecm\core\storage\lock\LockManagerService.java">
+<violation beginline="44" endline="44" begincolumn="5" endcolumn="79" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.storage.lock" class="LockManagerService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="112" endline="112" begincolumn="9" endcolumn="44" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage.lock" class="LockManagerService" method="addContribution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="117" endline="117" begincolumn="9" endcolumn="46" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.storage.lock" class="LockManagerService" method="removeContribution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+</pmd>

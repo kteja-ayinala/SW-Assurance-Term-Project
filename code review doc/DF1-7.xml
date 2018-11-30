@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:39:08.687">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-usermapper\src\main\java\org\nuxeo\usermapper\service\UserMapperComponent.java">
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="82" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.usermapper.service" class="UserMapperComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="70" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.usermapper.service" class="UserMapperComponent" method="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-usermapper\src\main\java\org\nuxeo\usermapper\service\UserMapperDescriptor.java">
+<violation beginline="59" endline="59" begincolumn="69" endcolumn="75" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.usermapper.service" class="UserMapperDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="68" endline="91" begincolumn="12" endcolumn="5" rule="SingletonClassReturningNewInstance" ruleset="Error Prone" package="org.nuxeo.usermapper.service" class="UserMapperDescriptor" method="getInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#singletonclassreturningnewinstance" priority="2">
+getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+</violation>
+</file>
+</pmd>

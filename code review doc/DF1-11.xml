@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:52:48.889">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-features\nuxeo-platform-oauth\src\main\java\org\nuxeo\ecm\platform\oauth2\tokens\OAuth2TokenStore.java">
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="79" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.oauth2.tokens" class="OAuth2TokenStore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>

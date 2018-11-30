@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:44:26.928">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\api\AbstractSession.java">
+<violation beginline="122" endline="122" begincolumn="5" endcolumn="72" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.api" class="AbstractSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="214" endline="215" begincolumn="13" endcolumn="118" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="checkPermission" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="792" endline="792" begincolumn="52" endcolumn="60" rule="UnusedNullCheckInEquals" ruleset="Error Prone" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="importDocument" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#unusednullcheckinequals" priority="3">
+Invoke equals() on the object you've already ensured is not null
+</violation>
+<violation beginline="1776" endline="1776" begincolumn="9" endcolumn="70" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="restoreToVersion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="1922" endline="1922" begincolumn="13" endcolumn="89" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="getDocumentWithVersion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="1925" endline="1925" begincolumn="9" endcolumn="96" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="getDocumentWithVersion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="2026" endline="2026" begincolumn="17" endcolumn="66" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="getDataModelField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="2029" endline="2029" begincolumn="13" endcolumn="55" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="getDataModelField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="2434" endline="2434" begincolumn="14" endcolumn="24" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="orderBefore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="2434" endline="2434" begincolumn="31" endcolumn="46" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.api" class="AbstractSession" method="orderBefore" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\api\DocumentModelFactory.java">
+<violation beginline="50" endline="303" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="org.nuxeo.ecm.core.api" class="DocumentModelFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="50" endline="303" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="org.nuxeo.ecm.core.api" class="DocumentModelFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'DocumentModelFactory' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="81" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.api" class="DocumentModelFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="82" endline="82" begincolumn="49" endcolumn="86" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.api" class="DocumentModelFactory" method="createDocumentModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="140" endline="140" begincolumn="13" endcolumn="107" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.api" class="DocumentModelFactory" method="createDocumentModel" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\api\local\LocalSession.java">
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="73" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.api.local" class="LocalSession" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>

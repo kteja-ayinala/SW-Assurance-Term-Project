@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:46:10.164">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\DefaultPermissionProvider.java">
+<violation beginline="44" endline="45" begincolumn="5" endcolumn="86" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="DefaultPermissionProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="109" endline="109" begincolumn="16" endcolumn="66" rule="OptimizableToArrayCall" ruleset="Performance" package="org.nuxeo.ecm.core.security" class="DefaultPermissionProvider" method="getSubPermissions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_performance.html#optimizabletoarraycall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="115" endline="115" begincolumn="16" endcolumn="66" rule="OptimizableToArrayCall" ruleset="Performance" package="org.nuxeo.ecm.core.security" class="DefaultPermissionProvider" method="getAliasPermissions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_performance.html#optimizabletoarraycall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="132" endline="142" begincolumn="25" endcolumn="5" rule="ReturnEmptyArrayRatherThanNull" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="DefaultPermissionProvider" method="getPermissionGroups" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#returnemptyarrayratherthannull" priority="1">
+Return an empty array rather than null.
+</violation>
+<violation beginline="139" endline="139" begincolumn="20" endcolumn="60" rule="OptimizableToArrayCall" ruleset="Performance" package="org.nuxeo.ecm.core.security" class="DefaultPermissionProvider" method="getPermissionGroups" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_performance.html#optimizabletoarraycall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\LockSecurityPolicy.java">
+<violation beginline="60" endline="60" begincolumn="16" endcolumn="42" rule="PositionLiteralsFirstInComparisons" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="LockSecurityPolicy" method="isRestrictingPermission" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#positionliteralsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\PermissionDescriptor.java">
+<violation beginline="74" endline="74" begincolumn="20" endcolumn="35" rule="OverrideBothEqualsAndHashcode" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="PermissionDescriptor" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#overridebothequalsandhashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+<violation beginline="86" endline="88" begincolumn="13" endcolumn="13" rule="SimplifyBooleanReturns" ruleset="Design" package="org.nuxeo.ecm.core.security" class="PermissionDescriptor" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\PermissionUIItemDescriptor.java">
+<violation beginline="55" endline="56" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.security" class="PermissionUIItemDescriptor" method="PermissionUIItemDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="105" endline="105" begincolumn="20" endcolumn="39" rule="OverrideBothEqualsAndHashcode" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="PermissionUIItemDescriptor" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#overridebothequalsandhashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\PermissionVisibilityDescriptor.java">
+<violation beginline="46" endline="47" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.security" class="PermissionVisibilityDescriptor" method="PermissionVisibilityDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="100" endline="100" begincolumn="37" endcolumn="103" rule="OptimizableToArrayCall" ruleset="Performance" package="org.nuxeo.ecm.core.security" class="PermissionVisibilityDescriptor" method="getSortedItems" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_performance.html#optimizabletoarraycall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="117" endline="117" begincolumn="20" endcolumn="39" rule="OverrideBothEqualsAndHashcode" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="PermissionVisibilityDescriptor" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#overridebothequalsandhashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+<violation beginline="123" endline="125" begincolumn="13" endcolumn="13" rule="SimplifyBooleanReturns" ruleset="Design" package="org.nuxeo.ecm.core.security" class="PermissionVisibilityDescriptor" method="equals" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\SecurityPolicyServiceImpl.java">
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="86" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="SecurityPolicyServiceImpl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="79" endline="80" begincolumn="25" endcolumn="100" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="SecurityPolicyServiceImpl" method="computePolicies" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="73" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="SecurityPolicyServiceImpl" method="computePolicies" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="129" endline="130" begincolumn="17" endcolumn="109" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="SecurityPolicyServiceImpl" method="getPoliciesQueryTransformers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="140" endline="140" begincolumn="13" endcolumn="56" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="SecurityPolicyServiceImpl" method="registerDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-core\nuxeo-core\src\main\java\org\nuxeo\ecm\core\security\SecurityService.java">
+<violation beginline="61" endline="61" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.core.security" class="SecurityService" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="61" endline="61" begincolumn="5" endcolumn="76" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.security" class="SecurityService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>

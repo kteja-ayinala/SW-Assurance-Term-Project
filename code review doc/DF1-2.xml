@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-29T22:35:46.651">
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-api\src\main\java\org\nuxeo\ecm\platform\usermanager\providers\AbstractGroupMemberPageProvider.java">
+<violation beginline="64" endline="64" begincolumn="25" endcolumn="43" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="AbstractGroupMemberPageProvider" method="getCurrentPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="67" endline="67" begincolumn="26" endcolumn="66" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="AbstractGroupMemberPageProvider" method="getCurrentPage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-api\src\main\java\org\nuxeo\ecm\platform\usermanager\providers\AbstractGroupsPageProvider.java">
+<violation beginline="58" endline="58" begincolumn="5" endcolumn="87" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="AbstractGroupsPageProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-api\src\main\java\org\nuxeo\ecm\platform\usermanager\providers\AbstractUsersPageProvider.java">
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="78" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="AbstractUsersPageProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="172" endline="172" begincolumn="34" endcolumn="74" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="AbstractUsersPageProvider" method="updateUserCatalog" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-api\src\main\java\org\nuxeo\ecm\platform\usermanager\providers\NuxeoGroupsPageProvider.java">
+<violation beginline="39" endline="39" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager.providers" class="NuxeoGroupsPageProvider" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="39" endline="39" begincolumn="5" endcolumn="84" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="NuxeoGroupsPageProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="C:\Users\KirbyPC\Downloads\nuxeo-master\nuxeo-master\nuxeo-services\nuxeo-platform-usermanager-api\src\main\java\org\nuxeo\ecm\platform\usermanager\providers\NuxeoPrincipalsPageProvider.java">
+<violation beginline="39" endline="39" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.platform.usermanager.providers" class="NuxeoPrincipalsPageProvider" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="39" endline="39" begincolumn="5" endcolumn="88" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.platform.usermanager.providers" class="NuxeoPrincipalsPageProvider" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+</pmd>
