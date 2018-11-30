@@ -52,7 +52,7 @@ PMD is the only tool we were able to get working. The analysis is done in the co
 Code for authentication is found in many different places, which makes sense since it is a very basic, yet important security measure. PMD found many violations; however, the vast majority are stylistic. One common violation is "Logger calls should be surrounded by log level guards." The only violation of note is "[getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF1-7.xml)"
 
 
-2) Edit, save, or modify data to the cloud. (Encryption) [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/TP-1.xml) <br>
+2) Edit, save, or modify data to the cloud. (Encryption) [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/commit/0b0c5c30cfd994c77183b6d34075c9c7717fbebe) <br>
 One of the most common potential vulnerability found by PMD is ‘Logger calls should be surrounded by log level guards.’ Other medium level vulnerability found in encryption code is empty Catch Block. In this case, the error condition will be swallowed and the execution continues. 
 
 
