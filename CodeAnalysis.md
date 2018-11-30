@@ -64,7 +64,7 @@ Third party data transfers involves with data encryption, authentications and ti
 This data flow mainly exists in the code dealing with versioning or the repository. "Logger calls should be surrounded by log level guards" is quite common once again with all other violations being stylistic or best practices; no large security threats were identified.
 
 
-5) Maintaining proper VCS of modifications on the shared doc. (Audit)
+5) Maintaining proper VCS of modifications on the shared doc. (Audit) [(1)] (https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/Versioning.xml)
 
 
 **Github Project Board:** https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/5
