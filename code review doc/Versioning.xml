@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.9.0" timestamp="2018-11-30T14:23:26.002">
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/CompatVersioningService.java">
+<violation beginline="40" endline="40" begincolumn="30" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="CompatVersioningService" variable="log" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'log'.
+</violation>
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="84" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="CompatVersioningService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="61" endline="61" begincolumn="30" endcolumn="59" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.versioning" class="CompatVersioningService" method="isPreSaveDoingCheckOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="115" endline="117" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="CompatVersioningService" method="doCheckOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/DefaultVersionRemovalPolicy.java">
+<violation beginline="47" endline="47" begincolumn="5" endcolumn="88" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="DefaultVersionRemovalPolicy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="82" endline="82" begincolumn="17" endcolumn="32" rule="UseCollectionIsEmpty" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="DefaultVersionRemovalPolicy" method="removeVersions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#usecollectionisempty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/DefaultVersioningRuleDescriptor.java">
+<violation beginline="42" endline="42" begincolumn="66" endcolumn="72" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="DefaultVersioningRuleDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/NullVersionRemovalPolicy.java">
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="85" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="NullVersionRemovalPolicy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/OrphanVersionCleanupListener.java">
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="89" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionCleanupListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="60" endline="60" begincolumn="13" endcolumn="86" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionCleanupListener" method="getCommitSize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="74" endline="74" begincolumn="9" endcolumn="60" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionCleanupListener" method="handleEvent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/OrphanVersionRemoverListener.java">
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="91" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionRemoverListener" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="85" endline="85" begincolumn="17" endcolumn="33" rule="UseCollectionIsEmpty" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionRemoverListener" method="removeIfPossible" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#usecollectionisempty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+<violation beginline="93" endline="93" begincolumn="17" endcolumn="52" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="OrphanVersionRemoverListener" method="removeIfPossible" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/SaveOptionsDescriptor.java">
+<violation beginline="102" endline="102" begincolumn="29" endcolumn="49" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.nuxeo.ecm.core.versioning" class="SaveOptionsDescriptor" method="toRestrictionOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'VersioningOption.NONE' due to existing static import 'org.nuxeo.ecm.core.api.VersioningOption.NONE'
+</violation>
+<violation beginline="108" endline="108" begincolumn="29" endcolumn="50" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.nuxeo.ecm.core.versioning" class="SaveOptionsDescriptor" method="toRestrictionOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'VersioningOption.MINOR' due to existing static import 'org.nuxeo.ecm.core.api.VersioningOption.MINOR'
+</violation>
+<violation beginline="114" endline="114" begincolumn="29" endcolumn="50" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="org.nuxeo.ecm.core.versioning" class="SaveOptionsDescriptor" method="toRestrictionOptions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'VersioningOption.MAJOR' due to existing static import 'org.nuxeo.ecm.core.api.VersioningOption.MAJOR'
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/StandardVersioningService.java">
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="86" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="150" endline="150" begincolumn="13" endcolumn="57" rule="SimplifyConditional" ruleset="Design" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="getVersion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifyconditional" priority="3">
+No need to check for null before an instanceof
+</violation>
+<violation beginline="167" endline="167" begincolumn="13" endcolumn="57" rule="SimplifyConditional" ruleset="Design" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="getVersion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#simplifyconditional" priority="3">
+No need to check for null before an instanceof
+</violation>
+<violation beginline="196" endline="198" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="incrementByOption" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="374" endline="376" begincolumn="37" endcolumn="9" rule="EmptyIfStmt" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="doCheckOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="382" endline="384" begincolumn="19" endcolumn="17" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="doCheckOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="536" endline="537" begincolumn="17" endcolumn="76" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="StandardVersioningService" method="isPolicyMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningComponent.java">
+<violation beginline="48" endline="48" begincolumn="5" endcolumn="80" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="198" endline="198" begincolumn="26" endcolumn="29" rule="UselessParentheses" ruleset="Code Style" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerContribution" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="262" endline="262" begincolumn="9" endcolumn="59" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerVersioningService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="268" endline="268" begincolumn="9" endcolumn="73" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="unregisterVersioningService" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="278" endline="278" begincolumn="9" endcolumn="72" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerVersioningRule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="288" endline="288" begincolumn="9" endcolumn="74" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="unregisterVersioningRule" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="313" endline="313" begincolumn="9" endcolumn="68" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerVersioningPolicy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="319" endline="319" begincolumn="9" endcolumn="70" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="unregisterVersioningPolicy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="325" endline="325" begincolumn="9" endcolumn="68" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerVersioningFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="331" endline="331" begincolumn="9" endcolumn="70" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="unregisterVersioningFilter" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="337" endline="337" begincolumn="9" endcolumn="75" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="registerVersioningRestriction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="343" endline="343" begincolumn="9" endcolumn="77" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningComponent" method="unregisterVersioningRestriction" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningFilterDescriptor.java">
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="87" rule="ProperLogger" ruleset="Error Prone" package="org.nuxeo.ecm.core.versioning" class="VersioningFilterDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="48" endline="48" begincolumn="69" endcolumn="75" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningFilterDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="51" endline="51" begincolumn="70" endcolumn="76" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningFilterDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="54" endline="54" begincolumn="71" endcolumn="77" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningFilterDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
+</violation>
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="81" rule="GuardLogStatement" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningFilterDescriptor" method="newInstance" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningPolicyDescriptor.java">
+<violation beginline="54" endline="54" begincolumn="74" endcolumn="82" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningPolicyDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningRestrictionDescriptor.java">
+<violation beginline="47" endline="47" begincolumn="66" endcolumn="72" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningRestrictionDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningRestrictionOptionsDescriptor.java">
+<violation beginline="44" endline="44" begincolumn="81" endcolumn="89" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningRestrictionOptionsDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name="/Users/sindhurabonthu/Desktop/nuxeo-master/nuxeo-core/nuxeo-core/src/main/java/org/nuxeo/ecm/core/versioning/VersioningRuleDescriptor.java">
+<violation beginline="45" endline="45" begincolumn="66" endcolumn="72" rule="LooseCoupling" ruleset="Best Practices" package="org.nuxeo.ecm.core.versioning" class="VersioningRuleDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="76" endline="77" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="org.nuxeo.ecm.core.versioning" class="VersioningRuleDescriptor" method="VersioningRuleDescriptor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+</pmd>
