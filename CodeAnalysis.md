@@ -57,14 +57,15 @@ One of the most common potential vulnerability found by PMD is ‘Logger calls s
 
 
 3) Store and retrieve data from the database, drive. (Third-party)  [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/TP-1.xml) [(2)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/TP-2.xml) [(3)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/TP-3.xml) [(4)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/TP-4.xml) <br>
-Third party data transfers involves with data encryption, authentications and time enabled sessions. Along with results from above two data flows the reults of PMD tool for code of time enabled seesions, Secure transport and token generation for block chain technology are mostly about style of code with most common message "Logger calls should be surrounded by log level guards".
+Third party data transfers involves with data encryption, authentications and time enabled sessions. Along with results from above two data flows the reults of PMD tool for code of time enabled seesions, Secure transport and token generation for block chain technology are mostly about style of code with most common violation "Logger calls should be surrounded by log level guards".
 
 
 4) Export data into different formats, specific permissions on RWX.(Read, write, download) [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-1.xml) [(2)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-2.xml) [(3)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-3.xml) [(4)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-4.xml) [(5)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/DF4-5.xml) </br>
 This data flow mainly exists in the code dealing with versioning or the repository. "Logger calls should be surrounded by log level guards" is quite common once again with all other violations being stylistic or best practices; no large security threats were identified.
 
 
-5) Maintaining proper VCS of modifications on the shared doc. (Audit) [(1)] (https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/Versioning.xml)
+5) Maintaining proper VCS of modifications on the shared doc. (Audit) [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/Versioning.xml)  [(2)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/V-1.xml) <br>
+Versioning code  deals with maintaining all the changes with proper versions making the log immutable. From the reults of PMD tool for versioning code the common violation is "Avoid using implementation types like 'ArrayList'; use the interface instead" along with the "Logger calls should be surrounded by log level guards".
 
 
 **Github Project Board:** https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/5
