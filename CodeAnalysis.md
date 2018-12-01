@@ -28,12 +28,14 @@ We were able to analyse our identified code sections on PMD,  based on the defau
 # Findings from manual code review
 
 1) Form and set group permissions. (Authentication) </br>
-There was a lot of code to manually review, but I could not find any glaring security weaknesses. Nuxeo Platform uses Findbugs as part of it's automated code review, so it's not surprising that obvious weaknesses are absent.
+There was a lot of code to manually review, but We could not find any glaring security weaknesses. Nuxeo Platform uses Findbugs as part of it's automated code review, so it's not surprising that obvious weaknesses are absent.
 
 2) Edit, save, or modify data to the cloud. (Encryption)
 
 
-3) Store and retrieve data from the database, drive. (Third-party)
+3) Store and retrieve data from the database, drive. (Third-party) </br>
+The checklist considered while doing manual review for third party storage is the list of CWE's
+[[CWE-5](https://cwe.mitre.org/data/definitions/5.html), [CWE-311](https://cwe.mitre.org/data/definitions/311.html), [CWE-300](https://cwe.mitre.org/data/definitions/300.html), [CWE-346](https://cwe.mitre.org/data/definitions/346.html)]. The first thing reviewd is whether the data to be transfered is properly encrypted or not. The [CWE-5](https://cwe.mitre.org/data/definitions/5.html), [CWE-311](https://cwe.mitre.org/data/definitions/311.html) are checked in the second dataflow. While reviewing for [CWE-300](https://cwe.mitre.org/data/definitions/300.html), LDAP code is reviewed which is enforcing SSL. Many of the catch blocks are not handled. While reviewing for [CWE-346](https://cwe.mitre.org/data/definitions/346.html), the tokens are validated based on the session time in OAuth2TokenStore.
 
 
 4) Export data into different formats, specific permissions on RWX. (Read, write, download) </br>
