@@ -69,5 +69,7 @@ This data flow mainly exists in the code dealing with versioning, storage, or th
 5) Maintaining proper VCS of modifications on the shared doc. (Audit) [(1)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/Versioning.xml)  [(2)](https://github.com/kteja-ayinala/SW-Assurance-Term-Project/blob/master/code%20review%20doc/V-1.xml) <br>
 Versioning code  deals with maintaining all the changes with proper versions making the log immutable. From the reults of PMD tool for versioning code the common violation is "Avoid using implementation types like 'ArrayList'; use the interface instead" along with the "Logger calls should be surrounded by log level guards".
 
+<br>
+<br>
 
 **Github Project Board:** https://github.com/kteja-ayinala/SW-Assurance-Term-Project/projects/5
