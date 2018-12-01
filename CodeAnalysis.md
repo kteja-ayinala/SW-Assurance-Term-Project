@@ -32,14 +32,8 @@ There was a lot of code to manually review, but We could not find any glaring se
 
 2) Edit, save, or modify data to the cloud. (Encryption) </br>
 The code related to encryption has an empty catch block. So there is a chance that the error condition will be swallowed and the execution continues.</br>
-List of CWES' considered for Encryption are:
-[CWE-5: J2EE Misconfiguration ](https://cwe.mitre.org/data/definitions/5.html)</br>
-Data Transmission Without Encryption Transmitting data with Encryption preserves Confidentiality and Integrity. Nuxeo uses Encryption algorithms such as AES, DES which prevents attacker from reading or modifying the encrypted data. 
-[CWE-311: Missing Encryption of Sensitive Data ](https://cwe.mitre.org/data/definitions/311.html)</br>
-Nuxeo also encrypts sensitive or critical information before storage or transmission.
-[CWE-326: Inadequate Encryption Strength](https://cwe.mitre.org/data/definitions/326.html) </br>
-We did not find any part of code that suffice the encryption strength of the algorithms used.
-[CWE-327: Use of a Broken or Risky Cryptographic Algorithm](https://cwe.mitre.org/data/definitions/327.html) </br>
+List of CWES' considered for Encryption are:[CWE-5: J2EE Misconfiguration ](https://cwe.mitre.org/data/definitions/5.html)
+Data Transmission Without Encryption Transmitting data with Encryption preserves Confidentiality and Integrity. Nuxeo uses Encryption algorithms such as AES, DES which prevents attacker from reading or modifying the encrypted data, [CWE-311: Missing Encryption of Sensitive Data ](https://cwe.mitre.org/data/definitions/311.html) Nuxeo also encrypts sensitive or critical information before storage or transmission, [CWE-326: Inadequate Encryption Strength](https://cwe.mitre.org/data/definitions/326.html) We did not find any part of code that suffice the encryption strength of the algorithms used, [CWE-327: Use of a Broken or Risky Cryptographic Algorithm](https://cwe.mitre.org/data/definitions/327.html) 
 Nuxeo uses standard cryptographic algorithm. The attacker will not be able to break the algorithm easily, so the data confidentiality and integrity will be preserved. 
 
 
