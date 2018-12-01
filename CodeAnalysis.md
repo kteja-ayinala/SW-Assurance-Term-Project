@@ -31,7 +31,7 @@ We were able to analyse our identified code sections on PMD,  based on the defau
 There was a lot of code to manually review, but We could not find any glaring security weaknesses. Nuxeo Platform uses Findbugs as part of it's automated code review, so it's not surprising that obvious weaknesses are absent.
 
 2) Edit, save, or modify data to the cloud. (Encryption) </br>
-The code related to encryption has an empty catch block. So there is a chance that the error condition will be swallowed and the execution continues. List of CWES's considered for Encryption are:[CWE-5: J2EE Misconfiguration](https://cwe.mitre.org/data/definitions/5.html)Data Transmission Without Encryption Transmitting data with Encryption preserves Confidentiality and Integrity. Nuxeo uses Encryption algorithms such as AES, DES which prevents attacker from reading or modifying the encrypted data, [CWE-311: Missing Encryption of Sensitive Data ](https://cwe.mitre.org/data/definitions/311.html) Nuxeo also encrypts sensitive or critical information before storage or transmission, [CWE-326: Inadequate Encryption Strength](https://cwe.mitre.org/data/definitions/326.html) We did not find any part of code that suffice the encryption strength of the algorithms used, [CWE-327: Use of a Broken or Risky Cryptographic Algorithm](https://cwe.mitre.org/data/definitions/327.html) 
+The code related to encryption has an empty catch block. So there is a chance that the error condition will be swallowed and the execution continues. List of CWES's considered for Encryption are:[CWE-5: J2EE Misconfiguration](https://cwe.mitre.org/data/definitions/5.html) Data Transmission Without Encryption Transmitting data with Encryption preserves Confidentiality and Integrity. Nuxeo uses Encryption algorithms such as AES, DES which prevents attacker from reading or modifying the encrypted data, [CWE-311: Missing Encryption of Sensitive Data ](https://cwe.mitre.org/data/definitions/311.html) Nuxeo also encrypts sensitive or critical information before storage or transmission, [CWE-326: Inadequate Encryption Strength](https://cwe.mitre.org/data/definitions/326.html) We did not find any part of code that suffice the encryption strength of the algorithms used, [CWE-327: Use of a Broken or Risky Cryptographic Algorithm](https://cwe.mitre.org/data/definitions/327.html) 
 Nuxeo uses standard cryptographic algorithm. The attacker will not be able to break the algorithm easily, so the data confidentiality and integrity will be preserved. 
 
 
@@ -44,7 +44,7 @@ The autmated PMD tool found a potential [weakness](https://github.com/kteja-ayin
 
 
 5) Maintaining proper VCS of modifications on the shared doc. (Audit)
-The checklist considered to review the code audit and versioning is the list of CWE's[[CWE-302](https://cwe.mitre.org/data/definitions/302.html), [CWE-471](https://cwe.mitre.org/data/definitions/471.html)]. The major area considered for review is setting version log as immutable.
+The checklist considered to review the code audit and versioning is the list of CWE's[[CWE-302](https://cwe.mitre.org/data/definitions/302.html), [CWE-471](https://cwe.mitre.org/data/definitions/471.html)]. The major area considered for review is setting version log as immutable. Although the data in the VCS is immutable, we didnot find any details regarding CWE 471.
 
 
 # Findings from automated code scanning
